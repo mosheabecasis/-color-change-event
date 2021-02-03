@@ -21,7 +21,12 @@ body {
   background-color:#b7b7a4;
   border-radius: 100vw;
 }
-
+@media (max-width: 650px) {
+  #container {
+    height: 40vh;
+    width: 80vw;
+  }
+}
 
 #button {
   color: black;

@@ -38,6 +38,13 @@ body {
   border-radius: 100vw;
 }
 
+@media (max-width: 650px) {
+  #container {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+
 #button {
   color: black;
   background-color: white;
