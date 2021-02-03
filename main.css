@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #06d6a0;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40vw;
+  height: 40vh;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  background-color: #b7b7a4;
+  border-radius: 100vw;
+}
+
+@media (max-width: 650px) {
+  #container {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+
+button {
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px;
+          box-shadow: 10px 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 5px 5px;
+          box-shadow: 5px 5px;
+}
+/*# sourceMappingURL=main.css.map */
