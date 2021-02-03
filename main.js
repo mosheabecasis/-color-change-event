@@ -4,7 +4,7 @@ const $button = document.getElementById('button');
 
 
 
-const bgChange = (event)=>{
+const bgChange = ()=>{
   const bgColors = ['green','blue','crimson','pink']; 
   const randomNumber = math.random() * bgColors.length;
   const randomIndex = math.floor(randomNumber);
