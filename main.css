@@ -38,14 +38,7 @@ body {
   border-radius: 100vw;
 }
 
-@media (max-width: 650px) {
-  #container {
-    height: 40vh;
-    width: 80vw;
-  }
-}
-
-button {
+#button {
   color: black;
   background-color: white;
   border: none;
@@ -60,11 +53,11 @@ button {
   transition: .2s;
 }
 
-button:hover {
+#button:hover {
   cursor: pointer;
 }
 
-button:active {
+#button:active {
   -webkit-transition: .2s;
   transition: .2s;
   -webkit-box-shadow: 5px 5px;
