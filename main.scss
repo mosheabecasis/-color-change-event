@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+
 body {
   display: flex;
   align-items: center;
@@ -39,11 +40,13 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px;
   transition: .2s;
-}
-#button:hover {
+
+  &:hover {
   cursor: pointer;
-}
-#button:active {
+ }
+ &:active {
   transition: .2s;
   box-shadow: 5px 5px;
+ }
 }
+
